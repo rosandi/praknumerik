@@ -1,0 +1,10 @@
+services:
+  numeric:
+    image: rosandi/nrxalp
+    hostname: numeric
+    container_name: nrx
+    ports:
+      - 8889:8888
+    volumes:
+      - ./:/workdata
+
